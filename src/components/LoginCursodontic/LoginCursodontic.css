@@ -1,0 +1,184 @@
+.loginCursodontic{
+
+    font-size: 16px;
+    font-family: 'Bebas Neue';
+    height: auto;
+}
+
+.loginCursodontic__cardLogin{
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px 10px 0 0;
+    background-color: white;
+}
+
+.cardLogin__header{
+
+    background-color: black;
+    padding: 15px;
+    border-radius: 8px 8px 0 0;
+}
+
+.cardLoginHeader__text{
+
+    font-size: 24px;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+    color: white;
+
+}
+
+.cardLoginBody__metodosInicioSesion{
+
+    padding: 25px 15px;
+}
+
+.metodosInicioSesion{
+
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    margin-top: 6px;
+    
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.metodosInicioSesion i{
+
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    font-size: 18px;
+}
+
+.btnSesion__correo{
+    
+    background-color: #f65f5d;
+    border: #f65f5d;
+    color: white;
+}
+
+.btnSesion__correo:hover{
+
+    background-color: #fa504d;
+}
+
+.btnSesion__google{
+
+    background-color: #f5f5f5;
+    border: white;
+    color: black;
+}
+
+.btnSesion__google:hover{
+
+    background-color: #dadada;
+}
+
+.btnSesion__facebook{
+
+    background-color: #1877f2;
+    border: #1877f2;
+    color: white;
+}
+
+.btnSesion__facebook:hover{
+
+    background-color: #1561c5;
+}
+
+.btnSesion__wallet{
+
+    background-color: #f9bb60;
+    border: #f9bb60;
+    color: black;
+}
+
+.btnSesion__wallet:hover{
+
+    background-color: #f7c171;
+}
+
+.metodosInicioSesion__link{
+
+    text-decoration: none;
+}
+
+.metodosInicioSesion__text{
+
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    color: gray;
+
+    text-align: end;
+    margin-bottom: 0;
+}
+
+.cardLoginBody__infoFormulario{
+
+    padding: 15px;
+    background-color: #e5e5e5;
+}
+
+.infoFormulario__textInicio{
+
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.formularioLoginCursodontic__input{
+
+    width: 100%;
+    height: 40px;
+    border: 1px solid gray;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-left: 10px;
+
+    font-family: 'Montserrat';
+    font-size: 15px;
+}
+
+.formularioLoginCursodontic__text{
+
+    font-family: 'Montserrat';
+    color: red;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.formularioLoginCursodontic__link{
+
+    text-decoration: none;
+}
+
+.formularioLoginCursodontic__button{
+
+    height: 45px;
+    width: 100%;
+    background-color: #f65f5d;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.formularioLoginCursodontic__button:hover{
+
+    background-color: #fa504d;
+}

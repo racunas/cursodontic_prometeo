@@ -1,0 +1,11 @@
+.headerLogin{
+
+    background-color: black;
+    height: 100px;
+}
+
+.headerLogin__logo{
+
+    width: 165px;
+    margin-top: 20px;
+}

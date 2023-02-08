@@ -1,0 +1,31 @@
+.footerLogin{
+
+    background-color: #bdbbbb;
+    height: 100px;
+}
+
+.footerLogin__datosCursodontic{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.datosCursodontic__link{
+
+    text-decoration: none;
+    color: black;
+}
+
+.footerText__link{
+
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.datosCursodontic__text{
+
+    font-size: 14px;
+    color: ghostwhite;
+}
