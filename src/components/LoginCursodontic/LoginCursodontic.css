@@ -70,7 +70,7 @@
 
 .btnSesion__correo:hover{
 
-    background-color: #fa504d;
+    background-color: #c73c3a;
 }
 
 .btnSesion__google{
@@ -153,6 +153,11 @@
     font-size: 15px;
 }
 
+.formularioLoginCursodontic__input:active{
+
+    border-color: red!important;
+}
+
 .formularioLoginCursodontic__text{
 
     font-family: 'Montserrat';
@@ -180,5 +185,5 @@
 
 .formularioLoginCursodontic__button:hover{
 
-    background-color: #fa504d;
+    background-color: #ff6765;
 }
