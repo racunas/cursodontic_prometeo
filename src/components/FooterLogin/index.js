@@ -16,19 +16,19 @@ export default function FooterLogin(){
 
                         <Link to="/" className="datosCursodontic__link">
 
-                            <span className="footerText__link">
+                            <p className="footerText__link">
                                 
                                 Como cuidamos tu privacidad
 
-                            </span>
+                            </p>
 
                         </Link>
 
-                        <span className="datosCursodontic__text">
+                        <p className="datosCursodontic__text">
 
                             - Copyright © 2020-2023 Cursodontic México. SAPI
 
-                        </span>
+                        </p>
 
                     </div>
 
@@ -36,21 +36,21 @@ export default function FooterLogin(){
 
                         <Link to="/" className="datosCursodontic__link">
 
-                            <span className="footerText__link">
+                            <p className="footerText__link">
 
                                 Privacidad
 
-                            </span>
+                            </p>
 
                         </Link>
 
                         <Link to="/" className="datosCursodontic__link">
 
-                            <span className="footerText__link">
+                            <p className="footerText__link">
 
                                 - Condiciones
 
-                            </span>
+                            </p>
 
                         </Link>
 

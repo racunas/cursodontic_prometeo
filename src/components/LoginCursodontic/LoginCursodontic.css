@@ -193,6 +193,66 @@
 
 /*XS*/ 
 @media (max-width: 575px) {
+
+    .loginCursodontic__cardLogin{
+
+        width: 100%;
+    }
+
+    .cardLogin__header{
+
+        padding: 12px;
+    }
+
+    .cardLoginHeader__text{
+
+        font-size: 18px;
+    }
+
+    .cardLoginBody__metodosInicioSesion{
+
+        padding: 15px;
+    }
+
+    .metodosInicioSesion{
+
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .metodosInicioSesion i{
+
+        top: 11px;
+        font-size: 14px;
+    }
+
+    .metodosInicioSesion__text{
+
+        font-size: 11px;
+    }
+
+    .infoFormulario__textInicio{
+
+        font-size: 12px;
+    }
+
+    .formularioLoginCursodontic__input{
+
+        height: 35px;
+        margin-top: 8px;
+        font-size: 11px;
+    }
+
+    .formularioLoginCursodontic__text{
+
+        font-size: 9px;
+    }
+
+    .formularioLoginCursodontic__button{
+
+        height: 35px;
+        font-size: 15px;
+    }
     
 }
     
