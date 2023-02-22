@@ -20,6 +20,16 @@
     
 /*SM*/
 @media (max-width: 767px) and (min-width: 576px) {
+
+    .headerLogin{
+
+        height: 80px;
+    }
+
+    .headerLogin__logo{
+
+        width: 140px;
+    }
    
 }
       
@@ -35,8 +45,6 @@
 
         width: 150px;
     }
-
-    
         
 }
     

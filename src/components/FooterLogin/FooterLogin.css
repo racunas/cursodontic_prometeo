@@ -41,6 +41,27 @@
     
 /*SM*/
 @media (max-width: 767px) and (min-width: 576px) {
+
+    .footerLogin{
+
+        height: 80px;
+    }
+
+    .footerLogin__datosCursodontic{
+
+        padding-top: 25px;
+    }
+
+    .footerText__link{
+
+        font-size: 10px;
+        margin-right: 2px;
+    }
+
+    .datosCursodontic__text{
+
+        font-size: 10px;
+    }
    
 }
       
@@ -68,7 +89,7 @@
         font-size: 11px;
     }
 
-    
+
         
 }
     
