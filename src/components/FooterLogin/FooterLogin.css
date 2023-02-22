@@ -29,3 +29,52 @@
     font-size: 14px;
     color: ghostwhite;
 }
+
+
+
+/* RESPONSIVE */
+
+/*XS*/ 
+@media (max-width: 575px) {
+    
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+   
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+        
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .footerLogin{
+
+        height: 90px;
+    }
+
+    .footerLogin__datosCursodontic{
+
+        padding-top: 34px;
+    }
+
+    .footerText__link{
+
+        font-size: 13px;
+    }
+
+    .datosCursodontic__text{
+
+        font-size: 13px;
+    }
+          
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+
+}

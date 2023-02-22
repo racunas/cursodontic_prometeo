@@ -9,3 +9,41 @@
     width: 165px;
     margin-top: 20px;
 }
+
+
+/* RESPONSIVE    */
+
+/*XS*/ 
+@media (max-width: 575px) {
+    
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+   
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+        
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .headerLogin{
+
+        height: 90px;
+    }
+
+    .headerLogin__logo{
+
+        width: 160px;
+    }
+          
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+
+}

@@ -187,3 +187,91 @@
 
     background-color: #ff6765;
 }
+
+
+/* RESPONSIVE */
+
+/*XS*/ 
+@media (max-width: 575px) {
+    
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+   
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+        
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .loginCursodontic__cardLogin{
+
+        width: 50%;
+    }
+
+    .cardLoginHeader__text{
+
+        font-size: 22px;
+    }
+
+    .cardLoginBody__metodosInicioSesion{
+
+        padding: 20px 15px;
+    }
+
+    .metodosInicioSesion{
+
+        font-size: 15px;
+    }
+
+    .metodosInicioSesion i{
+
+        top: 11px;
+        font-size: 17px;
+    }
+
+    .metodosInicioSesion__text{
+
+        font-size: 13px;
+    }
+
+    .cardLoginBody__infoFormulario{
+
+        padding: 18px 15px;
+    }
+
+    .infoFormulario__textInicio{
+
+        font-size: 15px;
+    }
+
+    .formularioLoginCursodontic__input{
+
+        margin-top: 8px;
+        font-size: 14px;
+    }
+
+    .formularioLoginCursodontic__text{
+
+        font-size: 11px;
+    }
+
+    .formularioLoginCursodontic__button{
+
+        height: 40px;
+        font-size: 18px;
+    }
+
+
+          
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+
+}
