@@ -46,6 +46,29 @@
       
 /*MD*/
 @media (max-width: 991px) and (min-width: 768px) {
+
+    .footerLogin{
+
+        height: 85px;
+    }
+
+    .footerLogin__datosCursodontic{
+
+        padding-top: 30px;
+    }
+
+    .footerText__link{
+
+        font-size: 11px;
+        margin-right: 3px;
+    }
+
+    .datosCursodontic__text{
+
+        font-size: 11px;
+    }
+
+    
         
 }
     

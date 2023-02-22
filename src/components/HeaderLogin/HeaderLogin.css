@@ -25,6 +25,18 @@
       
 /*MD*/
 @media (max-width: 991px) and (min-width: 768px) {
+
+    .headerLogin{
+
+        height: 85px;
+    }
+
+    .headerLogin__logo{
+
+        width: 150px;
+    }
+
+    
         
 }
     
