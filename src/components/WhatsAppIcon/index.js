@@ -5,7 +5,7 @@ export default function WhatsAppIcon(){
 
     function handleClick(){
 
-        window.open('https://wa.me/5551723692', '_blank');
+        window.open('https://wa.me/5539892233', '_blank');
     }
 
     return(
