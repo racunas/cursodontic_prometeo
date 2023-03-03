@@ -1,11 +1,12 @@
 import React, {useState} from 'react';
 import "./LoginCursodontic.css";
 import { Link } from 'react-router-dom';
+import WhatsAppIcon from './../WhatsAppIcon';
 
 export default function LoginCursodontic(){
 
-    let [userEmail, setUserEmail] = React.useState("")
-    let [userPassword, setUserPassword] = React.useState("")
+    // let [userEmail, setUserEmail] = React.useState("")
+    // let [userPassword, setUserPassword] = React.useState("")
 
     function onSubmitLoginCursodontic(event){
 
@@ -27,6 +28,8 @@ export default function LoginCursodontic(){
     <div className="container-fluid loginCursodontic">
 
         <div className="container">
+
+            <WhatsAppIcon />
 
             <div className="loginCursodontic__cardLogin">
 
