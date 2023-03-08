@@ -1,16 +1,22 @@
-.bodyChatbot{
+body{
+    background-color: black;
+}
 
-    
+.bodyChatbot{
     padding-top: 15px;
     overflow-y: scroll;
+    background-color: black;
 }
 
 .mensajesBot{
 
     width: auto;
     height: auto;
-    border: 2px solid #FF9052;
+    border: 2px solid #f65f5d;
     border-radius: 8px 8px 8px 0;
+    padding: 8px;
+    margin-right: 70px;
+    background-color: white;
 }
 
 .mensajesBot__text{
@@ -23,8 +29,11 @@
 .mensajesUsuario{
 
     text-align: end;
-    border: 2px solid #FF9052;
-    background-color: #FF9052;
+    border: 1px solid black;
+    background-color: #f65f5d;
+    color:white;
+    padding: 8px;
+    margin-left: 80px;
     margin-top: 8px;
     margin-bottom: 8px;
     border-radius: 8px 8px 0 8px;

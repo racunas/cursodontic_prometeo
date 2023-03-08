@@ -1,7 +1,7 @@
 import React from 'react';
 import './HeaderChatbot.css';
 
-import avatarPrometeo from './../../assets/img/AvatarPrometeo.jpg'
+import avatarPrometeo from './../../assets/img/AvatarPrometeo.png'
 
 export default function HeaderChatbot(){
 
@@ -19,7 +19,7 @@ export default function HeaderChatbot(){
 
                         <span className="datosChatbot__nombreBot">Prometeo</span>
 
-                        <p className="datosChatbot__nombreEmpresa">Chatbot Cursodontid</p>
+                        <p className="datosChatbot__nombreEmpresa">Chatbot de Cursodontic</p>
 
                     </div>
 

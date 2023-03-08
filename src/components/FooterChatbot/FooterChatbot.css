@@ -16,23 +16,25 @@
 
 .dudasUsuarios__input{
 
-    border: 1px solid #FF9052;
+    border: 1px solid #f65f5d;
     border-radius: 8px;
     height: 40px;
     width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 12px;
 }
 
 .dudasUsuarios__input::placeholder{
-
     font-size: 12px;
-    padding-left: 6px;
 }
 
 .dudasUsuario__button{
 
     height: 35px;
     width: 35px;
-    background-color: #FF9052;
+    background-color: #f65f5d;
+    color: white;
     border: none;
     border-radius: 50px;
     margin-left: 8px;

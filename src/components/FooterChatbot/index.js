@@ -15,7 +15,8 @@ export default function FooterChatbot({onSubmitMensaje}){
                     type="text"
                     name="duda_usuario"
                     id="duda_usuario"
-                    placeholder="Consulta las dudas que tengas de Cursodontic"
+                    placeholder="Pregúntame lo que quieras..."
+                    autoComplete='off'
                     className="dudasUsuarios__input" />
 
                     <button className="dudasUsuario__button">
