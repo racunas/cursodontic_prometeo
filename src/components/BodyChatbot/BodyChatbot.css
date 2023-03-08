@@ -8,6 +8,12 @@ body{
     background-color: black;
 }
 
+.bodyChatbot__mensajes{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
 .mensajesBot{
 
     width: auto;

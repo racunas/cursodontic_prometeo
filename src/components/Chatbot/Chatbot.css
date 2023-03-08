@@ -3,3 +3,8 @@
     height: 100%;
     padding-bottom: 70px;
 }
+
+.scrollBodyChatbot{
+    position: fixed;
+    bottom: 0;
+}
