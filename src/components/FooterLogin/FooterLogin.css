@@ -12,6 +12,11 @@
     padding-top: 40px;
 }
 
+.datosCursodontic__copy{
+
+    display: flex;
+}
+
 .datosCursodontic__link{
 
     text-decoration: none;
@@ -22,10 +27,184 @@
 
     font-size: 14px;
     margin-right: 5px;
+    margin-bottom: 0;
 }
 
 .datosCursodontic__text{
 
     font-size: 14px;
     color: ghostwhite;
+    margin-bottom: 0;
+}
+
+.datosCursodontic__condiciones{
+
+    display: flex;
+}
+
+
+
+/* RESPONSIVE */
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .footerLogin{
+
+        height: auto;
+    }
+
+    .footerLogin__datosCursodontic{
+
+        display: block;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .datosCursodontic__copy{
+
+        display: block;
+    }
+
+    .footerText__link{
+
+        font-size: 11px;
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+
+    .datosCursodontic__text{
+
+        font-size: 11px;
+        margin-bottom: 5px;
+
+    }
+
+    .datosCursodontic__condiciones{
+
+        display: block;
+    }
+    
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+
+    .footerLogin{
+
+        height: 80px;
+    }
+
+    .footerLogin__datosCursodontic{
+
+        padding-top: 30px;
+    }
+
+    .datosCursodontic__copy{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerText__link{
+
+        font-size: 10px;
+        margin-right: 2px;
+        margin-bottom: 0;
+    }
+
+    .datosCursodontic__text{
+
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    .datosCursodontic__condiciones{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .footerLogin{
+
+        height: 85px;
+    }
+
+    .footerLogin__datosCursodontic{
+
+        padding-top: 35px;
+    }
+
+    .datosCursodontic__copy{
+
+        display: flex;
+    }
+
+    .footerText__link{
+
+        font-size: 11px;
+        margin-right: 3px;
+        margin-bottom: 0;
+    }
+
+    .datosCursodontic__text{
+
+        font-size: 11px;
+        margin-bottom: 0;
+    }
+
+    .datosCursodontic__condiciones{
+
+        display: flex;
+    }
+        
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .footerLogin{
+
+        height: 90px;
+    }
+
+    .footerLogin__datosCursodontic{
+
+        padding-top: 34px;
+    }
+
+    .datosCursodontic__copy{
+
+        display: flex;
+    }
+
+    .footerText__link{
+
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .datosCursodontic__text{
+
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    .datosCursodontic__condiciones{
+
+        display: flex;
+    }
+          
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+
 }

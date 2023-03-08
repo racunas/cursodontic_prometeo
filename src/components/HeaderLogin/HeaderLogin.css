@@ -9,3 +9,71 @@
     width: 165px;
     margin-top: 20px;
 }
+
+
+/* RESPONSIVE    */
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .headerLogin{
+
+        height: 75px;
+    }
+
+    .headerLogin__logo{
+
+        width: 135px;
+    }
+    
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+
+    .headerLogin{
+
+        height: 80px;
+    }
+
+    .headerLogin__logo{
+
+        width: 140px;
+    }
+   
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .headerLogin{
+
+        height: 85px;
+    }
+
+    .headerLogin__logo{
+
+        width: 150px;
+    }
+        
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .headerLogin{
+
+        height: 90px;
+    }
+
+    .headerLogin__logo{
+
+        width: 160px;
+    }
+          
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+
+}

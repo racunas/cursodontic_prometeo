@@ -70,7 +70,7 @@
 
 .btnSesion__correo:hover{
 
-    background-color: #fa504d;
+    background-color: #c73c3a;
 }
 
 .btnSesion__google{
@@ -153,6 +153,11 @@
     font-size: 15px;
 }
 
+.formularioLoginCursodontic__input:active{
+
+    border-color: red!important;
+}
+
 .formularioLoginCursodontic__text{
 
     font-family: 'Montserrat';
@@ -180,5 +185,278 @@
 
 .formularioLoginCursodontic__button:hover{
 
-    background-color: #fa504d;
+    background-color: #ff6765;
+}
+
+
+/* RESPONSIVE */
+
+/*XS*/ 
+@media (max-width: 575px) {
+
+    .loginCursodontic__cardLogin{
+
+        width: 100%;
+    }
+
+    .cardLogin__header{
+
+        padding: 12px;
+    }
+
+    .cardLoginHeader__text{
+
+        font-size: 18px;
+    }
+
+    .cardLoginBody__metodosInicioSesion{
+
+        padding: 15px;
+    }
+
+    .metodosInicioSesion{
+
+        height: 35px;
+        font-size: 12px;
+    }
+
+    .metodosInicioSesion i{
+
+        top: 11px;
+        font-size: 14px;
+    }
+
+    .metodosInicioSesion__text{
+
+        font-size: 11px;
+    }
+
+    .infoFormulario__textInicio{
+
+        font-size: 12px;
+    }
+
+    .formularioLoginCursodontic__input{
+
+        height: 35px;
+        margin-top: 8px;
+        font-size: 11px;
+    }
+
+    .formularioLoginCursodontic__text{
+
+        font-size: 9px;
+    }
+
+    .formularioLoginCursodontic__button{
+
+        height: 35px;
+        font-size: 15px;
+    }
+    
+}
+    
+/*SM*/
+@media (max-width: 767px) and (min-width: 576px) {
+
+    .loginCursodontic__cardLogin{
+
+        width: 80%;
+    }
+
+    .cardLogin__header{
+
+        padding: 12px;
+    }
+
+    .cardLoginHeader__text{
+
+        font-size: 18px;
+    }
+
+    .cardLoginBody__metodosInicioSesion{
+
+        padding: 17px 15px;
+    }
+
+    .metodosInicioSesion{
+
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .metodosInicioSesion i{
+
+        font-size: 15px;
+    }
+
+    .metodosInicioSesion__text{
+
+        font-size: 11px;
+    }
+
+    .cardLoginBody__infoFormulario{
+
+        padding: 17px 15px;
+    }
+
+    .infoFormulario__textInicio{
+
+        font-size: 13px;
+    }
+
+    .formularioLoginCursodontic__input{
+
+        height: 35px;
+        margin-top: 8px;
+        font-size: 12px;
+    }
+
+    .formularioLoginCursodontic__text{
+
+        font-size: 10px;
+    }
+
+    .formularioLoginCursodontic__button{
+
+        height: 40px;
+        font-size: 16px;
+    }
+   
+}
+      
+/*MD*/
+@media (max-width: 991px) and (min-width: 768px) {
+
+    .loginCursodontic__cardLogin{
+
+        width: 58%;
+    }
+
+    .cardLogin__header{
+
+        padding: 13px;
+    }
+
+    .cardLoginHeader__text{
+
+        font-size: 20px;
+    }
+
+    .cardLoginBody__metodosInicioSesion{
+
+        padding: 17px 15px;
+    }
+
+    .metodosInicioSesion{
+
+        font-size: 14px;
+        height: 37px;
+    }
+
+    .metodosInicioSesion i{
+
+        font-size: 16px;
+    }
+
+    .metodosInicioSesion__text{
+
+        font-size: 12px;
+    }
+
+    .infoFormulario__textInicio{
+
+        font-size: 14px;
+    }
+
+    .formularioLoginCursodontic__input{
+
+        height: 35px;
+        margin-top: 8px;
+        font-size: 13px;
+    }
+
+    .formularioLoginCursodontic__text{
+
+        font-size: 10px;
+    }
+
+    .formularioLoginCursodontic__button{
+
+        height: 40px;
+        font-size: 18px;
+    }
+
+
+        
+}
+    
+/*LG*/
+@media (max-width: 1199px) and (min-width: 992px) {
+
+    .loginCursodontic__cardLogin{
+
+        width: 50%;
+    }
+
+    .cardLoginHeader__text{
+
+        font-size: 22px;
+    }
+
+    .cardLoginBody__metodosInicioSesion{
+
+        padding: 20px 15px;
+    }
+
+    .metodosInicioSesion{
+
+        font-size: 15px;
+    }
+
+    .metodosInicioSesion i{
+
+        top: 11px;
+        font-size: 17px;
+    }
+
+    .metodosInicioSesion__text{
+
+        font-size: 13px;
+    }
+
+    .cardLoginBody__infoFormulario{
+
+        padding: 18px 15px;
+    }
+
+    .infoFormulario__textInicio{
+
+        font-size: 15px;
+    }
+
+    .formularioLoginCursodontic__input{
+
+        margin-top: 8px;
+        font-size: 14px;
+    }
+
+    .formularioLoginCursodontic__text{
+
+        font-size: 11px;
+    }
+
+    .formularioLoginCursodontic__button{
+
+        height: 40px;
+        font-size: 18px;
+    }
+
+
+          
+}
+    
+/*XL*/
+@media (min-width: 1200px){
+
 }

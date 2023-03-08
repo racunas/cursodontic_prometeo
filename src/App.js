@@ -4,6 +4,7 @@ import './App.css';
 import HeaderLogin from './components/HeaderLogin';
 import LoginCursodontic from './components/LoginCursodontic';
 import FooterLogin from './components/FooterLogin'; 
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
@@ -14,7 +15,14 @@ function App() {
 
         <Switch>
 
-          <Route to="/">
+
+          <Route path="/chatbot/" exact>
+
+            <Chatbot></Chatbot>
+
+          </Route>
+
+          <Route path="/">
 
             <HeaderLogin></HeaderLogin>
             <LoginCursodontic></LoginCursodontic>

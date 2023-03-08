@@ -1,14 +1,35 @@
-import React from 'react';
+import React, {useState} from 'react';
 import "./LoginCursodontic.css";
 import { Link } from 'react-router-dom';
+import WhatsAppIcon from './../WhatsAppIcon';
 
 export default function LoginCursodontic(){
+
+    // let [userEmail, setUserEmail] = React.useState("")
+    // let [userPassword, setUserPassword] = React.useState("")
+
+    function onSubmitLoginCursodontic(event){
+
+        event.preventDefault()
+
+        // const handleUserEmailChange = (event) => {
+        //     setUserEmail(event.target.value)
+        // }
+
+        // const handleUserPasswordChange = (event) => {
+        //     setUserPassword(event.target.value)
+        // }
+        
+
+    }
 
     return (
 
     <div className="container-fluid loginCursodontic">
 
         <div className="container">
+
+            <WhatsAppIcon />
 
             <div className="loginCursodontic__cardLogin">
 
@@ -24,7 +45,7 @@ export default function LoginCursodontic(){
 
                         <button type="button" className="metodosInicioSesion btnSesion__correo">
 
-                            <i class="fa-solid fa-envelope"></i>
+                            <i className="fa-solid fa-envelope"></i>
 
                             Continuar con mi Correo
 
@@ -32,7 +53,7 @@ export default function LoginCursodontic(){
 
                         <button type="button" className="metodosInicioSesion btnSesion__google">
 
-                            <i class="fa-brands fa-google"></i>
+                            <i className="fa-brands fa-google"></i>
 
                             Continuar con Google
 
@@ -40,7 +61,7 @@ export default function LoginCursodontic(){
 
                         <button type="button" className="metodosInicioSesion btnSesion__facebook">
 
-                            <i class="fa-brands fa-facebook-f"></i>
+                            <i className="fa-brands fa-facebook-f"></i>
 
                             Continuar con Facebook
 
@@ -48,7 +69,7 @@ export default function LoginCursodontic(){
 
                         <button type="button" className="metodosInicioSesion btnSesion__wallet">
 
-                            <i class="fa-solid fa-wallet"></i>
+                            <i className="fa-solid fa-wallet"></i>
 
                             Conectar Wallet
 
@@ -70,17 +91,31 @@ export default function LoginCursodontic(){
 
                         <span className="infoFormulario__textInicio">O inicia sesión con tu email y contraseña</span>
 
-                        <form action="/login.php" method="GET" className="infoFormulario__formularioLoginCursodontic">
+                        <form action="/login.php" method="GET" className="infoFormulario__formularioLoginCursodontic" onSubmit={(event) => onSubmitLoginCursodontic(event)}>
 
                             <div className="formularioLoginCursodontic">
 
-                                <input type="text" name="user_mail" id="user_mail" placeholder="Correo electronico" className="formularioLoginCursodontic__input" required />
+                                <input 
+                                type="email" 
+                                name="user_mail" 
+                                // value={userEmail}
+                                // onChange={handleUserEmailChange}
+                                id="userEmail" 
+                                placeholder="Correo electronico" className="formularioLoginCursodontic__input"
+                                required />
 
                             </div>
 
                             <div className="formularioLoginCursodontic">
 
-                                <input type="password" name="user_password" id="password" placeholder="Contraseña" className="formularioLoginCursodontic__input" required />
+                                <input 
+                                type="password"
+                                name="userPassword" 
+                                // value={userPassword}
+                                // onChange={handleUserPasswordChange} 
+                                id="userPassword"
+                                placeholder="Contraseña" className="formularioLoginCursodontic__input" 
+                                required />
 
                             </div>
 

@@ -1,0 +1,36 @@
+.whatsAppContacto{
+
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    background-color: green;
+    width: 47px;
+    height: 45px;
+    border-radius: 50px;
+    border: none;
+}
+
+.whatsAppContacto:hover{
+
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.iconWhatsAppContacto{
+
+    width: 100%;
+    height: 100%;
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    left: 6px;
+    top: 3px;
+}
+
+.iconWhatsAppContacto:hover{
+
+    color: green;
+    border: none;
+}
+
