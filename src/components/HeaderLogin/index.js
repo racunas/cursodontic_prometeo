@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './HeaderLogin.css';
 
 import logoCursodontic from './../../assets/img/logoBlanco.png';
@@ -11,7 +12,17 @@ export default function HeaderLogin(){
 
             <div className="container">
 
-                <img src={logoCursodontic} className="headerLogin__logo" />
+                <div className="">
+
+                    <img src={logoCursodontic} className="headerLogin__logo" />
+
+                    <Link to="/chatbot" className="">
+
+                        <span className="">Chatbot Cursodontic </span>
+
+                    </Link>
+
+                </div>
 
             </div>
 

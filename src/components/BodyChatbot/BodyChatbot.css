@@ -1,0 +1,39 @@
+.bodyChatbot{
+
+    
+    padding-top: 15px;
+    overflow-y: scroll;
+}
+
+.mensajesBot{
+
+    width: auto;
+    height: auto;
+    border: 2px solid #FF9052;
+    border-radius: 8px 8px 8px 0;
+}
+
+.mensajesBot__text{
+
+    margin-left: 8px;
+    font-size: 14px;
+    font-family: 'Montserrat';
+}
+
+.mensajesUsuario{
+
+    text-align: end;
+    border: 2px solid #FF9052;
+    background-color: #FF9052;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 8px 8px 0 8px;
+}
+
+.mensajesUsuario__text{
+
+    font-size: 14px;
+    font-family: 'Montserrat';
+    margin-right: 8px;
+}
+

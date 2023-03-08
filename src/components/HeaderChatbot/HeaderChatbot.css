@@ -1,0 +1,37 @@
+.headerChatbot{
+
+    background-color: #FF9052;
+    height: auto;
+    font-size: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.headerChatbot__infoChatbot{
+
+    display: flex;
+    align-items: center;
+}
+
+.infoChatbot__avatarChatbot{
+
+    width: 15%;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.datosChatbot__nombreBot{
+
+    font-size: 20px;
+    font-family: 'Bebas Neue';
+    font-weight: 500;
+}
+
+.datosChatbot__nombreEmpresa{
+
+    font-size: 12px;
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    line-height: 8px;
+}

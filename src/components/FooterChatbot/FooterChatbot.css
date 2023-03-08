@@ -1,0 +1,39 @@
+.footerChatbot{
+
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.footerChatbot__dudasUsuarios{
+
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dudasUsuarios__input{
+
+    border: 1px solid #FF9052;
+    border-radius: 8px;
+    height: 40px;
+    width: 100%;
+}
+
+.dudasUsuarios__input::placeholder{
+
+    font-size: 12px;
+    padding-left: 6px;
+}
+
+.dudasUsuario__button{
+
+    height: 35px;
+    width: 35px;
+    background-color: #FF9052;
+    border: none;
+    border-radius: 50px;
+    margin-left: 8px;
+}
