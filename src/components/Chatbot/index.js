@@ -32,6 +32,7 @@ export default function Chatbot(){
         }
         setMensajes([...mensajes, mensaje])
         document.getElementById("duda_usuario").value = ""
+        document.getElementById('duda_usuario').disabled = true;
         window.scrollTo(0, document.body.scrollHeight);
         setTimeout(() => document.getElementById('bodyChatbot').scrollIntoView(false), 100)
     }
@@ -134,6 +135,8 @@ export default function Chatbot(){
                 isUser: false
             }
             setMensajes([...mensajes, mensaje])
+
+            document.getElementById('duda_usuario').disabled = false;
 
             window.scrollTo(0, document.body.scrollHeight);
             setTimeout(() => document.getElementById('bodyChatbot').scrollIntoView(false), 100)
