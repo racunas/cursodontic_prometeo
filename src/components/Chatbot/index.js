@@ -154,19 +154,17 @@ export default function Chatbot(){
 
         <React.Fragment>
 
-            <HeaderChatbot />
-
             <div className="scrollBodyChatbot">
+                <HeaderChatbot />
 
                 <BodyChatbot 
                     mensajes={mensajes}
                 />
 
+                <FooterChatbot 
+                    onSubmitMensaje={onSubmitMensaje}
+                />
             </div>
-
-            <FooterChatbot 
-                onSubmitMensaje={onSubmitMensaje}
-            />
 
         </React.Fragment>
 

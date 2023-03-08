@@ -7,26 +7,22 @@ export default function BodyChatbot({ mensajes }){
 
         <div className="container-fluid bodyChatbot" id="bodyChatbot">
 
-            <div className="container">
+            <div className="bodyChatbot__mensajes">
 
-                <div className="bodyChatbot__mensajes">
+                {
+                    mensajes.length > 0 &&
+                        mensajes.map(value =>{
+                            return(
+                                <div className={`${value.isUser ? "mensajesUsuario" : "mensajesBot"}`}>
 
-                    {
-                        mensajes.length > 0 &&
-                            mensajes.map(value =>{
-                                return(
-                                    <div className={`${value.isUser ? "mensajesUsuario" : "mensajesBot"}`}>
+                                    <p className="mensajesUsuario__text">
+                                        {value.text}
+                                    </p>
 
-                                        <p className="mensajesUsuario__text">
-                                            {value.text}
-                                        </p>
-
-                                    </div>
-                                )
-                            })
-                    }
-
-                </div>
+                                </div>
+                            )
+                        })
+                }
 
             </div>
 
